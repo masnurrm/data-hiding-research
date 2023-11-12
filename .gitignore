@@ -1,0 +1,5 @@
+# Ignore resources folder
+/resources
+
+# Ignore task_individual.m file
+task_individual.m
