@@ -75,7 +75,7 @@ extract_payload        = int16(zeros(1, extract_payload_size));
 counter                = 1;
 
 for i = 1:size_1d
-    if mod(i, 4) == 1
+     if mod(i, 4) == 1
         extract_cover_image(i) = 10;
     end
   
