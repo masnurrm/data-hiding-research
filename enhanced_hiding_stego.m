@@ -5,10 +5,10 @@ fprintf('=============================== H I D I N G ===========================
 fprintf('===========================================================================\n\n');
 
 % Step H1: Load the cover image and change the data type to int16.
-cover_image         = int16(imread("E:\Research\Sample Images\Abdominal.tiff"));
+cover_image         = int16(imread("E:\Research\Sample Images\Chest.tiff"));
 
 % Step H2: Load the payload or secret bits data.
-payload             = readmatrix("E:\Research\Sample Payloads\random-binary_1Kb.txt");
+payload             = readmatrix("E:\Research\Sample Payloads\random-binary_50Kb.txt");
 
 % Step H3: Compute the width and height of the cover image.
 fprintf('Embedding Payload Process Start...\n');
